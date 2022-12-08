@@ -1,43 +1,93 @@
 /* === BEGIN FONTS === */
-
 @font-face {
-    font-family: 'Gilroy-Regular';
-    src: url('./assets/fonts/Gilroy-Regular.woff') format('woff');
-    font-weight: normal; 
+    font-family: 'Pragmatica';
+    src: url('./assets/fonts/Pragmatica-ExtraLight.woff') format('woff');
+    font-weight: 200; 
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gilroy-Medium';
-    src: url('./assets/fonts/Gilroy-Medium.woff') format('woff');
-    font-weight: normal; 
+    font-family: 'Pragmatica';
+    src: url('./assets/fonts/Pragmatica-Light.woff') format('woff');
+    font-weight: 300; 
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Pragmatica';
+    src: url('./assets/fonts/Pragmatica-Book.woff') format('woff');
+    font-weight: 400; 
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gilroy-Bold';
-    src: url('./assets/fonts/Gilroy-Bold.woff') format('woff');
-    font-weight: normal; 
+    font-family: 'Pragmatica';
+    src: url('./assets/fonts/Pragmatica-Medium.woff') format('woff');
+    font-weight: 500; 
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'HeliosLightC';
-    src: url('./assets/fonts/HeliosLightC.woff') format('woff');
-    font-weight: normal; 
+    font-family: 'Pragmatica';
+    src: url('./assets/fonts/Pragmatica-Bold.woff') format('woff');
+    font-weight: 700; 
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Pragmatica';
+    src: url('./assets/fonts/Pragmatica-Black.woff') format('woff');
+    font-weight: 900; 
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'HeliosC';
-    src: url('./assets/fonts/HeliosC.woff') format('woff');
-    font-weight: normal; 
+    font-family: 'Marck Script';
+    src: url('./assets/fonts/MarckScript-Regular.ttf') format('opentype');
+    font-weight: 400; 
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('./assets/fonts/PlayfairDisplay-Regular.ttf') format('opentype');
+    font-weight: 400; 
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('./assets/fonts/PlayfairDisplay-Medium.ttf') format('opentype');
+    font-weight: 500; 
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('./assets/fonts/PlayfairDisplay-Bold.ttf') format('opentype');
+    font-weight: 700; 
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('./assets/fonts/PlayfairDisplay-Black.ttf') format('opentype');
+    font-weight: 900; 
+    font-style: normal;
+    font-display: swap;
+}
+
+
 
 /* === END FONTS === */
