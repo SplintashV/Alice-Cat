@@ -37,3 +37,25 @@ jQuery(document).ready(function($) {
         $('.post-item iframe').closest('p').addClass('iframe-box')
     }
 })
+
+window.onscroll = function () {
+    fixedFunction()
+
+};
+
+var navbar = document.getElementById("navbar"); 
+
+var sticky = navbar.offsetTop; 
+
+
+
+function fixedFunction() {
+    if (window.pageYOffset > sticky) {
+        navbar.classList.add("fixed");
+        navbar.classList.add("sticky-style");
+    } else {
+        navbar.classList.remove("fixed");
+        navbar.classList.remove("sticky-style");
+       
+    }
+}

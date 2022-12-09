@@ -1,0 +1,32 @@
+.greetings{
+    width: 100%;
+    height: 980px;
+    background: url(assets/img/back-greetings.png);
+    font-family: $font-secondary;
+    color: $beige;
+    
+    &-item{
+        padding: 175px 0;
+    }
+    
+    p{
+        color: $beige;
+        font-size: 33px;
+        max-width: 545px;
+        text-align: center;
+        margin: 0 auto ;
+    }
+
+    &__accessory{
+        height: 150px;
+        width: 1px;
+        background-color: $beige;
+        margin: 25px auto;
+        
+        
+    }
+
+    &__author{
+        text-align: center;
+    }
+}

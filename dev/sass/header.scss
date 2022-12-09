@@ -1,7 +1,10 @@
 header{
-	height: 155px;
+	
 	padding: 15px 0;
 	background: transparent;
+	height: 170px;
+	z-index: 1;
+	background-color: #ECE5DB;
 	
 	.first-line{
 		display: flex;
@@ -17,6 +20,10 @@ header{
 	}
 	
 	.navbar{
+		transition: .7s;
+		height: 0px;
+		
+		
 		&-nav{
 			margin: 0 auto;
 			.nav-item{
@@ -25,15 +32,17 @@ header{
 			.nav-link{
 				text-decoration: none;
 				position: relative;
-				padding: 9px 17px;
+				font-weight: 500;
+				
 				
 				&::before{
 					content: "";
 					top: 80%;
     				left: 50%;
 					position: absolute;
-					height: 1px;
+					height: 2px;
 					width: 0;
+					border-radius: 50%;
 					background: $primary-color;
 					transition: .3s;
 					transform: translateX(-50%);
@@ -41,7 +50,7 @@ header{
 
 				&:hover{
 					&::before{
-						width: 100%;
+						width: 90%;
 					}
 				}
 
@@ -52,7 +61,16 @@ header{
 			display: none;
 			}
 		}
+
+		
 	}
 
+	.sticky-style{
+		
+		height: 50px;
+		background-color: #F7F2EB;
+		
+	}
 	
 }
+

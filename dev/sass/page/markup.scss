@@ -119,6 +119,14 @@ body {
         left: 52%;
         transform: translate(-50%, -50%);
     }
+
+    &:hover{
+        background: $secondary-color;
+        &::before{
+            
+            color: #fec22d;
+        }
+    }
 }
 
 /*1*/
@@ -449,7 +457,7 @@ input:checked+label {
 .scroll::-webkit-scrollbar-thumb {
     background-color: $primary-color;
     background-clip: padding-box;
-    border: 0px solid #f9f9f9;
+    border: 0px solid $secondary-color;
     border-radius: 5px;
     &:hover {
         background-color: $secondary-color;
