@@ -1,0 +1,27 @@
+.info{
+    height: 725px;
+    background: url(assets/img/back-info.png) center ;
+    
+
+    &__img{
+        margin-top: 100px;
+     
+    }
+        
+    &__subtitle{
+        margin-top: 140px;
+        font-weight: 200;
+    } 
+
+    &__title{
+        margin-top: 20px;
+        font-family: $font-secondary;
+    }
+
+    &__description{
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 20px;
+        
+    }
+}

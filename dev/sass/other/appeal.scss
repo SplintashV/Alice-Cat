@@ -1,0 +1,14 @@
+.appeal{
+    height:935px ;
+    background: url(assets/img/back-appeal.png) center no-repeat;
+    background-size: 100%;
+    margin-top: -110px;
+
+    &__text{
+        margin-left: auto;
+        margin-top: 260px;
+        color: $beige;
+        font-size: 30px;
+        font-family: $font-secondary;
+    }
+}
