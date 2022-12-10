@@ -40,7 +40,10 @@ function fixedFunction() {
                  animItem.classList.add('active');
                  
              } else {
-                 animItem.classList.remove('active');
+                if (!animItem.classList.contains ('anim-no-hide')) {
+                    animItem.classList.remove('active');
+                }
+                  
              }
          }
          
