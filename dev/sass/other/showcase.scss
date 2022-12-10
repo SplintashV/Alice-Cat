@@ -1,5 +1,107 @@
 .showcase{
+    font-family: $font-secondary;
+    text-align: center;
     
-    
+    &__title{
+        margin-top: 120px;
+        
+        
+    }
+    &__description{
+        margin: 20px auto 0;
 
+        font-weight: 400;
+        font-size: 24px;
+        max-width: 650px;
+    
+    }
+
+    &__atr{
+        font-family:$font-primary;
+        margin: 60px auto 40px;
+        font-weight: 200; 
+    }
+
+    .product-item{
+        height: 500px;
+        margin-bottom: 40px;
+
+        &__link{
+            display: table-cell;
+            height: 430px;
+            width: 380px;  
+        }
+        
+        .product1-img{
+            background: url(assets/img/product1-img.png) center no-repeat;
+        }
+
+        .product2-img{
+            background: url(assets/img/product-img.png) center no-repeat;
+            
+        }
+        .product3-img{
+            background: url(assets/img/product3-img.png) center no-repeat;
+            
+        }
+        .product4-img{
+            background: url(assets/img/product4-img.png) center no-repeat;
+            
+        }
+        .product5-img{
+            background: url(assets/img/product5-img.png) center no-repeat;
+            
+        }
+        .product6-img{
+            background: url(assets/img/product6-img.png) center no-repeat;
+            
+        }
+
+        .product1-img,
+        .product2-img,
+        .product3-img,
+        .product4-img,
+        .product5-img,
+        .product6-img{
+           background-size: 100%;
+           transition: .8s; 
+
+           &:hover{
+               background-size: 110%;
+           }
+
+        }
+
+
+        &__title{
+            text-align: start;
+            margin-top: 10px;
+            font-family:$font-primary;
+            font-weight: 300; 
+           
+        }
+
+        
+    }
+
+    &__shop-item{
+        
+        .shop-link__img{
+            width: 600px;
+            margin-top: -10px;
+            transition: 0.8s;
+
+            &:hover{
+                width: 85%;
+
+            }
+        }
+
+    }
+    &__btn{
+        margin-bottom: 60px;
+        .btn-primary{
+            padding: 11px 75px;
+        }
+    }
 }
